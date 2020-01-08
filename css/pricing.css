@@ -1,0 +1,84 @@
+/* PAGE PRICING */
+
+.pricing-title {
+    text-align: center;
+    margin-top: 25px;
+    color: #38ADA9;
+  }
+  
+  .pricing-table {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+     width: 236px;
+     margin: 15px;
+     box-sizing: border-box;
+  }
+  
+  .table {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #EFEFEF;
+  }
+  
+  .far {
+    font-size: 30px;
+    padding: 10px;
+    color: #38ADA9;
+  }
+  
+  .table h3 {
+    color: #38ADA9;
+  }
+  
+  .line {
+    border-bottom: 3px solid #EFEFEF;
+    width: 101px;
+    height: 18px;
+    margin: auto;
+  }
+  
+  .table ul {
+    margin: 14px;
+    list-style: none;
+    color: #7C7C7C;
+  }
+  
+  .table ul li {
+    padding: 5px 0;
+    list-style: none;
+  }
+  
+  .price {
+    font-size: 40px;
+    color: #7C7C7C;
+  }
+  
+  .price span {
+    display: block;
+    font-size: 14px;
+  }
+  
+  .table a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #38ADA9;
+    display: block;
+    padding: 10px 0;
+    margin-top: 10px;
+    transition: 0.5s linear;
+  }
+  
+  .table a:hover {
+    background: #C4E1E0;
+    color: #38ADA9;
+  }
+  .table:hover {
+    border: 4px solid #38ADA9;
+  }

@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.header1{
+  font-family: "poppins";
+  color: #7C7C7C;
+  font-size: 13px;
+  border-color: #DEDEDE;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.header2{
+  margin:10px 130px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  font-size: 13;
+  font-family: 'poppins';
+}
+#logo{
+  display: flex;
+  list-style: none;
+}
+.icon{
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 28px;
+  color: #38ADA9;
+  line-height: 1.1;
+}
+.menu{
+  margin-top: 18px;
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+}
+.menu a{
+  text-decoration: none;
+  margin: 10px;
+  font-family: "poppins";
+  color: #7C7C7C;
+
+}
+.menu-desk:hover{
+  color: #38ADA9;
+}
+#quote{
+  color: white;
+  background-color: #38ADA9;
+  border-radius: 35px;
+  border: none;
+  padding: 10px;
+}
+.page-title{
+  background-color: #38ADA9;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "poppins";
+}
+
+
+.menu .dropdown .dropdown-content a{
+  margin: 0;
+}
+.dropdown button{
+  display: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown button{
+  background: none;
+  border: none;
+  color: #38ADA9;
+  cursor: pointer;
+}
+.dropdown-content {
+  width: 150px;
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  font-family: "poppins";
+  color: #38ADA9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+@media (max-width: 900px) {
+  .menu .menu-desk{
+    display: none;
+  }
+  .dropdown button{
+    display: block;
+    outline: none;
+  }
+  .header2{
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .dropdown-content #toblack:hover {background-color: #38ADA9;color: white;}
+  .dropdown button:focus +.dropdown-content{display: block;}
+
+  .para-us {
+    width: 100%;
+  }
+}
+
+
+
+
