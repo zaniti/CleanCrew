@@ -6,14 +6,14 @@
 }
 
 .about-us {
-    padding: 60px 190px;
+    padding: 60px 210px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
   
   .col-para {
-   width: 50%;
+   width: 48%;
    box-sizing: border-box;
    line-height: 1.7;
   }
@@ -25,6 +25,7 @@
   .about-title {
     color: #38ADA9;
     margin: 10px 0;
+    font-size: 18px;
   }
   
   .col-about-us {
