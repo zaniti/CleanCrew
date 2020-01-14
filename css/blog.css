@@ -1,0 +1,110 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+  }
+
+/* start blog */
+
+.container{
+
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h4{
+    padding: 5px;
+    color:  #38ADA9;
+    margin-top: 135px;
+  }
+   /* unvisited link */
+
+  a{
+      color: black;
+  }
+  .card{
+   margin: 25px;
+    background-color: #F4F4F4;
+    width: 300px;
+  }
+.card1{
+    margin: 25px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.P2 {
+
+    width: 430px;
+    position: relative;
+    margin-top: 0px;
+}
+.divwriting{
+    margin: 20px;
+}
+  .card1 .right{
+    text-align: left;
+    margin-left: 20px;
+  }
+ #cardtitle{
+    font-size: 14px;
+    color: #A8ABBD;
+    font-weight: 100;
+ }
+ .card1 h2{
+    font-size: 14px;
+    color: #A8ABBD;
+    font-weight: 100;
+
+ }
+ .card h2{
+    font-size: 14px;
+    color: #A8ABBD;
+    font-weight: 100;
+}
+
+ .card center{
+   text-align: center;
+     color: #A8ABBD;
+     font-weight: 9;
+     font-family: "Medium";
+ }
+ /* end bog */
+ /* media blog */
+ @media (max-width: 750px){
+img{
+    width:300px;
+}
+.P{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 430px;
+    position: relative;
+    top: 0%;
+}
+.pic2{
+    width: 500px;
+}
+
+
+ }
+
+ @media (min-width: 900px){
+    .P{
+        width: 430px;
+        position: relative;
+        margin-top: 112px;
+    }
+    .card1{
+        width: 1152px;
+          position: relative;
+     }
+ }
+
+ /* end media blog */

@@ -1,0 +1,106 @@
+/* PAGE REQUEST A QUOTE */
+
+.request-title{
+    text-align: center;
+    margin-top: 25px;
+    color: #38ADA9;
+}
+
+.request-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 42px 12%;
+  margin-bottom: 0;
+}
+
+
+.col-rqs input[type=text] {
+  width: 410px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.col-rqs label {
+  margin-bottom: 10px;
+  display: block;
+  color: #38ADA9;
+  font-size: 16px;
+}
+
+.message-rqs {
+  display: flex;
+  justify-content: center;
+  margin: 0 16.6%;
+  padding-bottom: 30px;
+}
+
+.message-rqs textarea {
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.rqs-type {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+.rqs-services  {
+  color: #38ADA9;
+}
+.rqs-services select {
+  height: 44px;
+  border-radius: 3px;
+  width: 410px;
+}
+
+.rqs-services h3 {
+  padding: 10px 0;
+  font-size: 18px;
+}
+.rqs-srv-container {
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 17%;
+  color: #38ADA9;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.rqs-srv-buttom {
+  justify-content: start;
+  display: flex;
+ 
+}
+
+.rqs-srv-container button {
+  border-radius: 20px;
+  color: white;
+  background-color: #38ADA9;
+  margin-top: 20px;
+  height: 60px;
+  width: 200px;
+  border-color: #38ADA9;
+}
+.rqs-srv-container button:hover {
+  background-color: #38ADA9A8;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .request-content {
+    flex-direction: column;
+  }
+  .col-rqs input[type=text]{
+    width: 270px;
+  }
+  .rqs-services select{
+    width: 270px;
+  }
+}
+  

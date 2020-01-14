@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/png" href="img/clean.png">
+    <title>CleanCrew | Contact</title>
+    <script src="https://kit.fontawesome.com/a6cfec0f45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Start of header -->
+  <div class="header1">
+    <p>Welcome To our Cleaning Company</p>
+    <p>Phone: +212 00 00 00 00  Email: <span style="color:#38ADA9;">info@company.com</span></p>
+  </div>
+  <div class="header2">
+    <ul id="logo">
+      <li>
+        <a href="Home.html"><img src="img/clean.png" width="60px;" /></a>
+      </li>
+      <li class="icon">&nbsp;lean<br/>&nbsp;rew.</li>
+    </ul>
+    <input type="checkbox" id="chk">
+          <label for="chk" class="show-menu">
+              <i class="fas fa-bars"></i>
+          </label>
+    <ul class="menu">
+      <li><a class="menu-desk" href="Home.html">Home</a></li>
+      <li><a class="menu-desk" href="about-us.html">About Us</a></li>
+      <li><a class="menu-desk" href="Services.html">Services</a></li>
+      <li><a class="menu-desk" href="Our-Works.html">Our Works</a></li>
+      <li><a class="menu-desk" href="pricing.html">Pricing</a></li>
+      <li><a class="menu-desk" href="blog.html">Blog</a></li>
+      <li id="current"><a class="menu-desk" href="contact.html">Contact</a></li>
+      <li><a href="request-quote.html" id="quote">Request A Quote</a></li>
+      <label for="chk" class="hide-menu">
+          <i class="fas fa-times"></i>
+      </label>
+
+    </ul>
+  </div>
+  <!-- End of header -->
+  <div class="page-title">
+     <h2>CONTACT</h2>
+  </div>
+  <!-- End of header -->
+<!-- star of container -->
+<div class="contain">
+   <!-- star of formulaire -->
+<div class="formulaire">
+   <form class="input">
+     <label for="fname">First Name</label>
+     <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+
+     <label for="lname">Last Name</label>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name.." >
+
+     <label for="country">Email</label>
+     <input id="Email" type="email" placeholder="Your Email" required>
+
+     <label for="country">Your Message</label>
+     <input id="YourMessage" type="text" placeholder="Your Message" >
+
+
+     <label for="country">Country</label>
+     <select id="country" name="country">
+       <option value="australia">Moroco</option>
+       <option value="canada">France</option>
+       <option value="usa">United States</option>
+       <option value="usa">Other</option>
+     </select>
+
+     <input type="submit" value="Submit" onclick="myFunction()">
+   </form>
+</div>
+<!-- End of formulaire -->
+<!-- star of maps -->
+<div class="maps">
+   <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.4533632265598!2d138.60447821402732!3d-34.9201651803787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c92d1b0d31a9%3A0xf03365545bac8c0!2sUniversit%C3%A9%20d&#39;Australie-M%C3%A9ridionale!5e0!3m2!1sfr!2sma!4v1575631259650!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+<!-- End of maps -->
+</div>
+<!-- End of container -->
+<script type="text/javascript">
+function myFunction() {
+ if (
+   document.getElementById('fname').value != "" &&
+   document.getElementById('lname').value != "" &&
+   /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/.test(document.getElementById('Email').value) &&
+   document.getElementById('YourMessage').value != "" &&
+   document.getElementById('country').value != ""
+   ) {
+  alert("welcom to clean crew");
+ } else {
+  alert("Please refill the form correctly");
+ }
+}
+
+   </script>
+
+   <!--Start Footer -->
+   <footer>
+     <div class="foot">
+       <div class="clean one">
+         <ul id="logo">
+           <li>
+             <a href="Home.html"><img src="img/clean.png" width="45px;" /></a>
+           </li>
+           <li class="icon" id="icon-footer">&nbsp;lean<br/>&nbsp;rew.</li>
+         </ul>
+         <p>
+           We are a team specialized in the cleaning of private apartments and houses, offices, and big halls. Our friendly team attaches great importance to the wishes of our customers.
+           <br/><br />
+           Personal contact and availability are important to us, quality is our priority over quantity.
+         </p>
+       </div>
+       <div class="clean two">
+         <h2>Quick View</h2>
+         <ul>
+           <li><a href="Home.html">Home</a></li>
+           <li><a href="about-us.html">About</a></li>
+           <li><a href="Services.html">Services</a></li>
+           <li><a href="Our-works.html">Projects</a></li>
+           <li><a href="request-quote.html">Quote</a></li>
+         </ul>
+       </div>
+       <div class="clean three">
+         <h2>Services</h2>
+         <ul>
+           <li><a href="Services.html">House cleaning</a></li>
+           <li><a href="Services.html">Move in / move out</a></li>
+           <li><a href="Services.html">Interior cleaning</a></li>
+           <li><a href="Services.html">After renovation</a></li>
+           <li><a href="Services.html">Window cleaning</a></li>
+           <li><a href="Services.html">Office cleaning</a></li>
+         </ul>
+       </div>
+       <div class="clean four">
+         <h2>Contact Us</h2>
+         <ul>
+           <li><p>Phone: +1 234 567 9332</p></li>
+           <li><p>Email: info@company.com</p></li>
+           <li><p>Fax: +1 342 422 5314</p></li>
+           <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>&nbsp&nbsp
+             <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp&nbsp
+             <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp&nbsp
+             <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>&nbsp&nbsp
+             <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+           </li>
+
+         </ul>
+
+       </div>
+
+     </div>
+   </footer>
+   <center class="Copyright">
+     <p>© Copyright 2020 <span>CleanCrew</span>,  All Rights Reserved.</p>
+   </center>
+   <!--End Footer -->
+</body>
+</html>

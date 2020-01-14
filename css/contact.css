@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+  }
+/* start contact */
+input[type=text], input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #38ADA9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formulaire {
+   display: flex;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+   margin-top: 40px;
+   width: 600px;
+}
+.contain{
+    margin: 10%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.maps{
+  display: flex;
+   margin-top: 40px;
+   border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 17px;
+}
+/* end contact */
+/* start media contact */
+@media screen (max-width : 750px){
+   .formulaire{
+       width: 80%;
+   }
+}
+
+@media(max-width : 700px){
+   .maps{
+       width: 90%;
+
+   }
+}
+/* end media contact */

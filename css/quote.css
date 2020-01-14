@@ -1,0 +1,121 @@
+.request-container {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.title-rqst {
+    color: #38ADA9;
+    box-sizing: border-box;
+}
+
+.request-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.col-rqst {
+    display: inline;
+    margin: 0 50px;
+   
+}
+
+.requestform {
+    display: inline;   
+}
+
+.requestform p {
+    flex-direction: column;
+    display: flex;   
+}
+
+.requestform p label {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    display: flex;
+    color: #38ADA9;
+    font-size: 16px;
+}
+
+.requestform p label span {
+    color: #f60;
+    padding-left: 3px;
+}
+
+.requestform input {
+    width: 404px;
+    height: 49px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.requestform input:focus  {
+    border: 1px solid red;
+}
+
+.requestform select {
+    height: 50px;
+    width: 410px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: grey;
+}
+
+
+
+.form-message {
+    margin-top: -50px;
+   
+}
+
+.form-message textarea {
+    resize: vertical;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 5px;
+    color: grey;
+    width: auto;
+    padding-left: 5px;
+  }
+
+ 
+
+
+.rqst-btn button {
+    background-color: #38ADA9;
+    border: none; 
+    border-radius: 35px;
+    margin-top: 15px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.rqst-btn button:hover {
+    background-color: gray;
+}
+
+/* Start media query for request a quote */
+@media screen and (max-width:800px) {
+    .requestform input {
+        width: 350px;
+    }
+
+    .requestform select {
+        width: 360px;
+    }
+
+    .form-message textarea {
+        width: 84%;
+        padding-left: 5px;
+      }
+
+}

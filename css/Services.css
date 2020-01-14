@@ -1,0 +1,36 @@
+
+/* contenu */
+*{
+  font-family: "poppins";
+}
+.global{
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 80px 120px ;
+}
+.global .pic{
+  width: 340px;
+  background-color: white;
+  margin-top: 100px;
+}
+.global .pic h2{
+  font-weight: 400;
+  margin: 20px 30px 10px 30px;
+}
+.global .pic p{
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 30px 30px 30px;
+}
+.global .pic img{
+  transition: transform .7s;
+}
+.global .pic img:hover{
+  transform: scale(1.1);
+}
+.global .pic .image{
+  height: 220px;
+  overflow: hidden;
+}

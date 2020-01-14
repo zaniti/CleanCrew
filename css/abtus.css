@@ -1,0 +1,123 @@
+/* PAGE ABOUT US */
+.abtus-slider-title {
+    text-align: center;
+    margin-top: 25px;
+    color: #38ADA9;
+}
+
+.about-us {
+    padding: 60px 210px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .col-para {
+   width: 48%;
+   box-sizing: border-box;
+   line-height: 1.7;
+  }
+  
+  .top-para {
+    padding-bottom: 10px;
+  }
+  
+  .about-title {
+    color: #38ADA9;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .col-about-us {
+    margin-left: 30px;
+    line-height: 2;
+    
+  }
+  
+  .fas {
+    color: #38ADA9;
+    font-size: large;
+    margin-left: 5px;
+  }
+  
+  .col-about-us ul li {
+    list-style-type: none;
+  }
+  
+  .abtus-service {
+    width: 100%;
+    height: auto;
+    background-color: #38ADA9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .abtus-service-content {
+    width:  475px;
+    color: #fff;
+    font-size: 16px;
+    margin: 13px 55px;
+    padding-bottom: 30px;
+    line-height: 1.7;
+  }
+  
+  .title-abtus-srv-left, .title-abtus-srv-right {
+    color: #fff;
+    padding: 13px;
+  }
+  /* star slider  */
+  .abtus-our-clients {
+    background-color: #fff;
+  }
+  
+  .abtus-slider {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 53px 0;
+    box-sizing: border-box;
+  }
+  
+  .abtus-content {
+    width: 21%;
+    margin: 0 25px;
+  text-align: center;
+  border: 2px solid;
+  }
+  
+  .abtus-slider-img img{
+    border-radius: 50%;
+    width: 150px;
+  }
+  
+  .abtus-slider-container {
+    text-align: center;
+  }
+  
+  .abtus-slider-container h3,p {
+    padding:8px 0;
+    line-height: 1.7;
+  }
+  
+  .stars i {
+    color: gold;
+    font-size: larger;
+    margin: 25px 0;
+  }
+  
+  .abtus-slider a {
+    
+  }
+  .buttonss{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+  }
+  .buttonss a{
+    margin: 80px;
+    font-size: 50px;
+    color: red;
+  }
+  /* end slider */
