@@ -48,98 +48,98 @@
     </div>
 <!-- End of header -->
 <!-- Start Request a quote -->
- <div class="request-container">
-    <!-- Start title -->
-    <div class="title-rqst">
-        <h1>Contact and Property Details</h1>
-    </div>
-    <!-- End title -->
-    <div class="request-content">
-        <div class="col-rqst">
-            <form class="requestform">
-                <p>
-                  <label for="author">
-                    Full Name
-                      <span>*</span>
-                  </label>
-                  <input type="text" id="fname" placeholder="Enter your name">
-                </p>
-                <p>
-                  <label for="email">
-                    Email
-                      <span>*</span>
-                  </label>
-                  <input type="email"  id="email" placeholder="brahim@exempl.com">
-                </p>
-                <p>
-                  <label for="phone">
-                    Number phone
-                      <span>*</span>
-                  </label>
-                  <input type="text" id="phone" placeholder="+212 6 XX XX XX XX">
-                </p>
-                <p>
-                  <label for="address">
-                    Address
-                      <span>*</span>
-                  </label>
-                  <input type="text" id="address" placeholder="Enter your Address">
-                </p>
-            </form>
-        </div>
-        <div class="col-rqst">
+<div class="request-container">
+  <!-- Start title -->
+  <div class="title-rqst">
+      <h1>Contact and Property Details</h1>
+  </div>
+  <!-- End title -->
+  <div class="request-content">
+      <div class="col-rqst">
           <form class="requestform">
               <p>
-                <label for="city">
-                  Country/City
+                <label for="name">
+                  Full Name
                     <span>*</span>
                 </label>
-                <input type="text" id="city" placeholder="Country/City">
+                <input type="name" id="name" placeholder="Enter your name">
               </p>
               <p>
-                <label for="zip">
-                  Postcode
+                <label for="email">
+                  Email
                     <span>*</span>
                 </label>
-                <input type="text" id="zipcd" placeholder="Postcode">
+                <input type="email"  id="email" placeholder="brahim@exempl.com">
               </p>
               <p>
-                <label for="house">
-                  Type Of House
+                <label for="phone">
+                  Number phone
                     <span>*</span>
                 </label>
-                <select name="type" id="type">
-                    <option value="House">House</option>
-                    <option value="Condo">Condo</option>
-                    <option value="Apartment">Apartment</option>
-                    <option value="Mobile Home">Mobile Home</option>
-                </select>
+                <input type="text" id="phone" placeholder="+212 6 XX XX XX XX">
               </p>
               <p>
-                <label for="Frequency">
-                  Frequency Of Cleanings
+                <label for="address">
+                  Address
                     <span>*</span>
                 </label>
-                <select name="type" id="type">
-                    <option value="One Time Only (Deposit required)">One Time Only (Deposit required)</option>
-                    <option value="Once A Week">Once A Week</option>
-                    <option value="Twice A Month">Twice A Month</option>
-                    <option value="Once A Month">Once A Month</option>
-                    <option value="One Time Only">One Time Only</option>
-                </select>
+                <input type="text" id="address" placeholder="Enter your Address">
               </p>
           </form>
       </div>
+      <div class="col-rqst">
+        <form class="requestform">
+            <p>
+              <label for="city">
+                Country/City
+                  <span>*</span>
+              </label>
+              <input type="text" id="city" placeholder="Country/City">
+            </p>
+            <p>
+              <label for="zip">
+                Postcode
+                  <span>*</span>
+              </label>
+              <input type="text" id="zipcd" placeholder="Postcode">
+            </p>
+            <p>
+              <label for="house">
+                Type Of House
+                  <span>*</span>
+              </label>
+              <select name="type" id="type">
+                  <option value="House">House</option>
+                  <option value="Condo">Condo</option>
+                  <option value="Apartment">Apartment</option>
+                  <option value="Mobile Home">Mobile Home</option>
+              </select>
+            </p>
+            <p>
+              <label for="Frequency">
+                Frequency Of Cleanings
+                  <span>*</span>
+              </label>
+              <select name="type" id="type">
+                  <option value="One Time Only (Deposit required)">One Time Only (Deposit required)</option>
+                  <option value="Once A Week">Once A Week</option>
+                  <option value="Twice A Month">Twice A Month</option>
+                  <option value="Once A Month">Once A Month</option>
+                  <option value="One Time Only">One Time Only</option>
+              </select>
+            </p>
+        </form>
     </div>
-    <div class="form-message">
-      <textarea name=""  cols="63" rows="3" placeholder="Leave a message"></textarea>
-    </div>
-    <div id="comment"></div>
-    <div class="rqst-btn">
-        <button type="button" onclick="request">Request A Quote</button>
-    </div>
- </div>
- <!-- End Request a quote -->
+  </div>
+  <div class="form-message">
+    <textarea name=""  cols="63" rows="3" >Leave a message</textarea>
+  </div>
+  <div id="comment"></div>
+  <div class="rqst-btn">
+      <button  onclick="request()">Request A Quote</button>
+  </div>
+</div>
+<!-- End Request a quote -->
  <!--Start Footer -->
 <footer>
   <div class="foot">
@@ -200,6 +200,6 @@
 <!--End Footer -->
 
 <!-- javascript  -->
-<script type="text/javascript" src="js.request.js"></script>
+<script type="text/javascript" src="js/request.js"></script>
 </body>
 </html>

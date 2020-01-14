@@ -1,45 +1,51 @@
-function request () {
-var name = document.getElementById("name").value;
-var email = document.getElementById("email").value;
-var phone = document.getElementById("phone").value;
-var address = document.getElementById("address").value;
-var city = document.getElementById("city").value;
-var zipcd = document.getElementById("zipcd").value;
+function request() {
+	var name = document.getElementById("name").value;
+	var email = document.getElementById("email").value;
+	var phone = document.getElementById("phone").value;
+	var address = document.getElementById("address").value;
+	var city = document.getElementById("city").value;
+	var zipcd = document.getElementById("zipcd").value;
 	var comment = document.getElementById("comment")
 	var text;
 
 
 		if  (name.length < 4) {
+		comment.style.color ="red";
 		text = "Please Enter Your Name";
 		comment.innerHTML = text;
 		return false;	
 		}
 
 		if (email.indexOf("@") == -1 || email.length < 10) {
+		comment.style.color ="red";
 		text = " Email is Not Valid ";
 		comment.innerHTML = text;
 		return false;
 }
 
-		if  (isNaN(phone) || phone.length < 10) {    
+		if  (isNaN(phone) || phone.length < 10) {  
+		comment.style.color ="red";  
 		text = "Please Enter Your Phone";
 		comment.innerHTML = text;
 		return false;	
 		}
 
 		if  (address.length < 10) {    
+		comment.style.color ="red";
 		text = "Please Enter Your Address";
 		comment.innerHTML = text;
 		return false;	
 		}
 
 		if  (city.length < 4) {    
+		comment.style.color ="red";
 		text = "Please Enter Your City";
 		comment.innerHTML = text;
 		return false;	
 		}
 
-		if  (isNaN(zipcd) || zipcd.length < 6) {    
+		if  (isNaN(zipcd) || zipcd.length < 6) {   
+		comment.style.color ="red"; 
 		text = "Please Enter Your Postecode";
 		comment.innerHTML = text;
 		return false;	

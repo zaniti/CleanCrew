@@ -99,8 +99,15 @@
 
 }
 
+#comment {
+    padding-top: 20px;
+    transition: all 2s ease;
+
+}
+
 .rqst-btn button:hover {
     background-color: gray;
+    transition: 0.5s ease;
 }
 
 /* Start media query for request a quote */
