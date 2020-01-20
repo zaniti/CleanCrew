@@ -78,9 +78,13 @@ h4{
  /* end bog */
  /* media blog */
  @media (max-width: 750px){
-img{
-    width:300px;
-}
+   .card1{
+     margin: 0;
+     width: 400px;
+   }
+   .card1 img{
+     width: 400px;
+   }
 .P{
     margin-top: 20px;
     margin-bottom: 20px;
