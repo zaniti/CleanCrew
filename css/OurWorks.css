@@ -1,5 +1,9 @@
 *{
-  font-family: 'poppins';
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins", sans-serif;
 }
 .title{
   font-size: 25px;

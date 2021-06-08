@@ -1,4 +1,11 @@
 /* start about us container */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
 .about-us-container {
     justify-content: center;
     display: flex;

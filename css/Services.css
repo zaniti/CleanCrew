@@ -1,7 +1,11 @@
 
 /* contenu */
 *{
-  font-family: "poppins";
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins", sans-serif;
 }
 .global{
   background-color: #F1F1F1;
@@ -33,4 +37,10 @@
 .global .pic .image{
   height: 220px;
   overflow: hidden;
+}
+
+@media (max-width: 900px){
+  .global{
+      padding: 10px;
+  }
 }

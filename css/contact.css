@@ -4,8 +4,27 @@
     text-decoration: none;
     list-style: none;
     font-family: "poppins", sans-serif;
-  }
+}
 /* start contact */
+.contain {
+  margin: 3% 10%;
+  background-color: #fff;
+}
+.row {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  padding: 20px;
+  width: 40%; 
+}
+
+iframe {
+  max-width: 100%;
+}
+
 input[type=text], input[type=email], select {
   width: 100%;
   padding: 12px 20px;
@@ -30,42 +49,15 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
-.formulaire {
-   display: flex;
-   border-radius: 5px;
-   background-color: #f2f2f2;
-   padding: 20px;
-   margin-top: 40px;
-   width: 600px;
-}
-.contain{
-    margin: 10%;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-.maps{
-  display: flex;
-   margin-top: 40px;
-   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 17px;
-}
 /* end contact */
 /* start media contact */
-@media screen (max-width : 750px){
-   .formulaire{
+@media (max-width : 750px){
+   .column{
        width: 80%;
    }
-}
-
-@media(max-width : 700px){
-   .maps{
-       width: 90%;
-
+   .contain{
+    margin: 20px 5px;
    }
 }
+
 /* end media contact */

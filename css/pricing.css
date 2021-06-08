@@ -1,4 +1,11 @@
 /* PAGE PRICING */
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins", sans-serif;
+}
 
 .pricing-title {
     text-align: center;

@@ -4,10 +4,10 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
-  font-family: "poppins";
+  /* font-family: "poppins"; */
 }
 .header1{
-  font-family: "poppins";
+  /* font-family: "poppins"; */
   color: #7C7C7C;
   font-size: 13px;
   border-color: #DEDEDE;

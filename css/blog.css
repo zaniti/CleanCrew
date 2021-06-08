@@ -1,11 +1,10 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: "poppins", sans-serif;
-  }
+    font-family: "poppins", sans-serif ;
+}
 
 /* start blog */
 
@@ -73,7 +72,6 @@ h4{
    text-align: center;
      color: #A8ABBD;
      font-weight: 9;
-     font-family: "Medium";
  }
  /* end bog */
  /* media blog */
@@ -106,7 +104,7 @@ h4{
         margin-top: 112px;
     }
     .card1{
-        width: 1152px;
+        width: 90%;
           position: relative;
      }
  }

@@ -1,10 +1,9 @@
 *{
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  list-style: none;
   text-decoration: none;
-  font-family: "poppins";
+  list-style: none;
+  font-family: "poppins", sans-serif;
 }
 .img-top{
   position: relative;
@@ -166,7 +165,7 @@ table td{
   font-size: 15px;
 }
 .greenbar{
-  padding: 20px;
+  padding: 20px 0;
   margin-top: 40px;
   width: 100%;
   background-color: #38ADA9;

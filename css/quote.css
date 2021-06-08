@@ -1,6 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
 .request-container {
     text-align: center;
-    padding: 70px 0;
+    margin: 70px 0;
 }
 
 .title-rqst {
@@ -13,7 +20,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 70px 0;
+    margin: 70px 0;
 }
 
 .col-rqst {
@@ -79,8 +86,7 @@
     border: 1px solid gray;
     padding: 5px;
     color: grey;
-    width: auto;
-    padding-left: 5px;
+    width: 60%;
   }
 
  
@@ -121,7 +127,7 @@
     }
 
     .form-message textarea {
-        width: 84%;
+        width: 350px;
         padding-left: 5px;
       }
 
